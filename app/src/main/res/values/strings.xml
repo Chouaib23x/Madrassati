@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مدرستي</string>
+
+    <string name="mode_select_title">اختر وضعك</string>
+    <string name="mode_teacher">المعلم</string>
+    <string name="mode_student">التلميذ</string>
+    <string name="mode_teacher_sub">لوحة التحكم وإدارة الفصل</string>
+    <string name="mode_student_sub">الدروس والتمارين التفاعلية</string>
+
+    <string name="teacher_login_title">حساب المعلم</string>
+    <string name="hint_username">اسم المستخدم</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="hint_confirm_password">تأكيد كلمة المرور</string>
+    <string name="action_login">دخول</string>
+    <string name="action_create_account">إنشاء الحساب</string>
+    <string name="login_first_title">إنشاء حساب المعلم</string>
+    <string name="login_first_sub">سيُستخدم هذا الحساب لفتح وضع المعلم وللتحكم في التلاميذ</string>
+    <string name="error_empty_fields">الرجاء إدخال جميع الحقول</string>
+    <string name="error_wrong_credentials">اسم المستخدم أو كلمة المرور غير صحيحة</string>
+    <string name="error_username_taken">اسم المستخدم مستعمل مسبقاً</string>
+    <string name="error_password_mismatch">كلمتا المرور غير متطابقتين</string>
+    <string name="error_password_short">كلمة المرور يجب أن تكون 6 أحرف على الأقل</string>
+    <string name="error_wrong_pin">رمز التحرير غير صحيح</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="recover_password">استعادة كلمة المرور</string>
+    <string name="recover_password_sub">أدخل رمز التحرير ثم كلمة مرور جديدة</string>
+    <string name="hint_recovery_pin">رمز التحرير (PIN)</string>
+    <string name="recovery_ok">تم تحديث كلمة المرور، يمكنك الدخول الآن</string>
+    <string name="remember_account">تذكر اسم الحساب</string>
+
+    <string name="teacher_home_title">المواد الدراسية</string>
+    <string name="action_class">إدارة الفصل</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="subject_arabic">اللغة العربية</string>
+    <string name="subject_math">الرياضيات</string>
+    <string name="subject_science">التربية العلمية والتكنولوجية</string>
+
+    <string name="units_title">المقاطع</string>
+    <string name="lessons_title">الدروس</string>
+    <string name="unit_label">المقطع %1$d</string>
+    <string name="lesson_label">الدرس %1$d</string>
+
+    <string name="lesson_overview">نظرة عامة على الدرس</string>
+    <string name="lesson_content_title">محتوى الدرس</string>
+    <string name="activities_count">عدد التمارين: %1$d</string>
+    <string name="difficulty_easy">سهل</string>
+    <string name="difficulty_medium">متوسط</string>
+    <string name="difficulty_advanced">متقدم</string>
+    <string name="start_session">بدء الحصة</string>
+    <string name="session_remote_soon">التحكم عن بعد — المرحلة القادمة</string>
+
+    <string name="class_title">الفصل</string>
+    <string name="students_count">عدد التلاميذ: %1$d / 20</string>
+    <string name="class_empty">لم يُضف أي تلميذ بعد</string>
+    <string name="action_add_student">إضافة تلميذ</string>
+    <string name="action_edit_student">تعديل</string>
+    <string name="action_delete_student">حذف</string>
+    <string name="hint_student_name">اسم التلميذ</string>
+    <string name="choose_avatar">اختر الحرف</string>
+    <string name="error_class_full">السعة القصوى هي 20 تلميذاً</string>
+    <string name="error_name_required">الرجاء إدخال اسم التلميذ</string>
+    <string name="confirm_delete_title">حذف التلميذ</string>
+    <string name="confirm_delete_message">هل تريد فعلاً حذف هذا التلميذ من الفصل؟</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_confirm">تأكيد</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="section_security">الأمان</string>
+    <string name="change_password">تغيير كلمة مرور المعلم</string>
+    <string name="change_pin">تغيير رمز التحرير PIN</string>
+    <string name="hint_new_pin">رمز من 4 أرقام</string>
+    <string name="pin_not_set">لم يُضبط رمز التحرير بعد</string>
+    <string name="section_content">المحتوى</string>
+    <string name="content_official">استعمال المحتوى الرسمي</string>
+    <string name="content_modified">استعمل نسختي المعدّلة</string>
+    <string name="section_about">حول التطبيق</string>
+    <string name="app_version">الإصدار %1$s</string>
+    <string name="action_save">حفظ</string>
+    <string name="saved_ok">تم الحفظ بنجاح</string>
+
+    <string name="student_wait_title">انتظر معلمك</string>
+    <string name="student_wait_sub">سيبدأ الدرس عندما يُطلقه المعلم</string>
+    <string name="welcome_title">في انتظار المعلم</string>
+    <string name="welcome_sub">سيبدأ الدرس عندما يُطلقه المعلم</string>
+    <string name="welcome_tap">اضغط في أي مكان للمتابعة</string>
+    <string name="action_choose_name">اختر اسمك</string>
+    <string name="pick_profile_title">من أنت؟</string>
+    <string name="subjects_title">اختر المادة</string>
+    <string name="no_students">أضف التلاميذ من حساب المعلم أولاً</string>
+
+    <string name="btn_validate">تحقق</string>
+    <string name="btn_next">التالي</string>
+    <string name="btn_start_exercises">بدء التمارين</string>
+    <string name="btn_retry">حاول مرة أخرى</string>
+    <string name="hint_label">تلميح</string>
+    <string name="solution_label">الحل</string>
+    <string name="correct_msg">أحسنت! إجابة صحيحة</string>
+    <string name="wrong_msg">ليست صحيحة، حاول مرة أخرى</string>
+    <string name="activity_index">%1$d / %2$d</string>
+    <string name="choose_answer">اختر إجابتك</string>
+    <string name="true_label">صواب</string>
+    <string name="false_label">خطأ</string>
+
+    <string name="score_title">نتيجة الحصة</string>
+    <string name="score_label">النقاط</string>
+    <string name="mastery_label">الإتقان</string>
+    <string name="time_label">الوقت</string>
+    <string name="difficulties_label">نقاط الصعوبة</string>
+    <string name="no_difficulties">لا توجد نقاط صعوبة</string>
+    <string name="retry_lesson">إعادة الدرس</string>
+    <string name="back_to_start">العودة إلى البداية</string>
+    <string name="minutes_seconds">%1$d ثانية</string>
+
+    <string name="pin_title">رمز التحرير</string>
+    <string name="pin_wrong">رمز غير صحيح</string>
+    <string name="pin_hint">أدخل رمز المعلم للخروج من وضع التثبيت</string>
+    <string name="unlock_action">تحرير الجهاز</string>
+
+    <string name="content_coming_soon">هذه المرحلة قيد الإعداد</string>
+
+    <string name="back">رجوع</string>
+    <string name="match_instruction">صل كل عنصر بمقابله الصحيح</string>
+    <string name="sort_instruction">رتّب العناصر حسب الترتيب الصحيح</string>
+    <string name="hint_write_answer">اكتب إجابتك هنا</string>
+    <string name="error_pin_length">يجب أن يتكون الرمز من 4 أرقام</string>
+    <string name="student_deleted">تم حذف التلميذ</string>
+
+    <string name="type_lesson">الدرس النظري</string>
+    <string name="type_mcq">سؤال متعدد الخيارات</string>
+    <string name="type_true_false">صواب أو خطأ</string>
+    <string name="type_matching">الإقران</string>
+    <string name="type_sorting">الترتيب</string>
+    <string name="type_writing">الكتابة</string>
+    <string name="hint_current_password">كلمة المرور الحالية</string>
+    <string name="hint_new_password">كلمة المرور الجديدة</string>
+
+    <string name="section_network">الشبكة</string>
+    <string name="network_title">شبكة الفصل</string>
+    <string name="net_hotspot">نقطة الوصول اللاسلكي</string>
+    <string name="net_server">خادم الفصل</string>
+    <string name="net_devices">الأجهزة المتصلة</string>
+    <string name="net_action_start">تشغيل الشبكة</string>
+    <string name="net_action_stop">إيقاف الشبكة</string>
+    <string name="net_off">متوقفة</string>
+    <string name="net_starting">جارٍ التشغيل…</string>
+    <string name="net_on">تعمل الآن</string>
+    <string name="net_error_permission">يلزم منح إذن الموقع لتشغيل نقطة الوصول</string>
+    <string name="net_error_generic">تعذر تشغيل نقطة الوصول، حاول مرة أخرى</string>
+    <string name="net_ssid">اسم الشبكة</string>
+    <string name="net_password">كلمة المرور</string>
+    <string name="net_address">عنوان الخادم</string>
+    <string name="net_server_running">يعمل</string>
+    <string name="net_server_stopped">متوقف</string>
+    <string name="net_no_devices">لا توجد أجهزة متصلة بعد</string>
+    <string name="net_connected_now">متصل الآن</string>
+    <string name="net_seen_seconds">قبل %1$d ثانية</string>
+    <string name="net_seen_minutes">قبل %1$d دقيقة</string>
+
+    <string name="control_title">التحكم في الفصل</string>
+    <string name="control_lock">قفل الأجهزة</string>
+    <string name="control_unlock">فتح الأجهزة</string>
+    <string name="control_lesson">الدرس الحالي</string>
+    <string name="control_stop_lesson">إيقاف الدرس</string>
+    <string name="control_lesson_none">لم يُطلق أي درس بعد</string>
+    <string name="control_devices">أجهزة التلاميذ</string>
+    <string name="control_no_devices">لا توجد أجهزة حتى الآن</string>
+    <string name="control_waiting">بانتظار درس</string>
+    <string name="control_needs_server">شغّل شبكة الفصل أولاً من الإعدادات</string>
+    <string name="control_send_lesson">أرسل الدرس للتلاميذ</string>
+    <string name="control_lesson_sent">تم إرسال الدرس للتلاميذ</string>
+    <string name="control_locked_screen">جهازك مقفل من طرف المعلم</string>
+    <string name="action_close">إغلاق</string>
+
+    <string name="media_title">الوسائط</string>
+    <string name="media_add">إضافة صورة أو فيديو</string>
+    <string name="media_picked">الملف المختار</string>
+    <string name="media_publish">نشر للتلاميذ</string>
+    <string name="media_stop">إيقاف النشر</string>
+    <string name="media_shared_now">يُنشر الآن</string>
+    <string name="media_none">لم تختر أي وسائط بعد</string>
+    <string name="media_server_off">شغّل الخادم من إعدادات الشبكة ليتمكن التلاميذ من استقبال الوسائط</string>
+
+    <string name="net_mode_title">نمط الشبكة</string>
+    <string name="net_mode_hotspot">نقطة وصول من الجهاز</string>
+    <string name="net_mode_hotspot_sub">أنشئ شبكة خاصة بالفصل</string>
+    <string name="net_mode_external">شبكة واي فاي موجودة</string>
+    <string name="net_mode_external_sub">اتصل بالواي فاي من الإعدادات ثم شغّل الخادم</string>
+    <string name="net_external_running">الخادم يعمل على الشبكة الخارجية</string>
+    <string name="net_external_ip">عنوان الجهاز على الشبكة</string>
+    <string name="net_start_server">تشغيل الخادم</string>
+
+    <string name="action_add_exercise">إضافة تمرين</string>
+    <string name="action_delete_exercise">حذف التمرين</string>
+    <string name="exercise_custom_badge">من المعلم</string>
+    <string name="exercise_delete_confirm">حذف هذا التمرين؟</string>
+    <string name="exercise_new_title">تمرين جديد</string>
+    <string name="exercise_lesson">الدرس</string>
+    <string name="exercise_choose_lesson">اختيار الدرس</string>
+    <string name="exercise_type">نوع التمرين</string>
+    <string name="exercise_difficulty">درجة الصعوبة</string>
+    <string name="exercise_question">السؤال</string>
+    <string name="exercise_options">الخيارات</string>
+    <string name="exercise_option_hint">خيار</string>
+    <string name="exercise_add_option">إضافة خيار</string>
+    <string name="exercise_true">صحيح</string>
+    <string name="exercise_false">خطأ</string>
+    <string name="exercise_pairs">الأزواج</string>
+    <string name="exercise_left_hint">العمود الأول</string>
+    <string name="exercise_right_hint">العمود الثاني</string>
+    <string name="exercise_add_pair">إضافة زوج</string>
+    <string name="exercise_items">العناصر بالترتيب الصحيح</string>
+    <string name="exercise_item_hint">عنصر</string>
+    <string name="exercise_add_item">إضافة عنصر</string>
+    <string name="exercise_answers">الإجابات المقبولة</string>
+    <string name="exercise_answer_hint">إجابة</string>
+    <string name="exercise_add_answer">إضافة إجابة</string>
+    <string name="exercise_model">الإجابة النموذجية (اختياري)</string>
+    <string name="exercise_hint">تلميح (اختياري)</string>
+    <string name="exercise_explanation">شرح الإجابة (اختياري)</string>
+    <string name="exercise_save">حفظ التمرين</string>
+    <string name="exercise_saved">تم حفظ التمرين</string>
+    <string name="exercise_err_question">أدخل نص السؤال</string>
+    <string name="exercise_err_options">أضف خيارين على الأقل</string>
+    <string name="exercise_err_correct">حدد إجابة صحيحة واحدة على الأقل</string>
+    <string name="exercise_err_pairs">أضف زوجين صالحين على الأقل</string>
+    <string name="exercise_err_items">أضف عنصرين على الأقل</string>
+    <string name="exercise_err_answer">أضف إجابة مقبولة واحدة على الأقل</string>
+    <string name="exercise_err_lesson">اختر الدرس أولا</string>
+</resources>
